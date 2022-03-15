@@ -8,16 +8,12 @@ namespace linkedlist14
         static void Main(string[] args)
         {
 
-            LinkedList<int> linkedList = new LinkedList<int>();
+            linkedlist linkedList = new linkedlist();
 
-            linkedList.AddLast(56);
-            linkedList.AddLast(30);
-            linkedList.AddLast(70);
-           
-            foreach (int ele in linkedList)
-            {
-                Console.WriteLine(ele);
-            }
+            linkedList.Add(56);
+            linkedList.Add(30);
+            linkedList.Add(70);
+            linkedList.Display();
         }
     }
 }
